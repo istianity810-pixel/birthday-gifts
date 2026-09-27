@@ -1,1 +1,444 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 💛</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="heart heart1">💛</div>
+    <div class="heart heart2">✨</div>
+    <div class="heart heart3">💛</div>
+    <div class="heart heart4">✨</div>
+    <div class="heart heart5">⭐</div>
+    <div class="heart heart6">💫</div>
+    <div class="heart heart7">💛</div>
+    <div class="heart heart8">✨</div>
+
+
+    <div id="questionScreen" class="screen">
+
+        <div class="question-card">
+
+            <div class="question-icon">👀💛</div>
+
+            <h1>May I ask you something?</h1>
+
+            <p class="question-text">
+                Interested ka bang makita?
+            </p>
+
+            <div class="question-buttons">
+
+                <button id="firstYes" class="yes-button">
+                    YES 💛
+                </button>
+
+                <button id="firstNo" class="no-button">
+                    NO 😭
+                </button>
+
+            </div>
+
+            <p id="firstHint" class="hint"></p>
+
+        </div>
+
+    </div>
+
+
+    <div id="passwordScreen" class="screen hidden">
+
+        <div class="question-card">
+
+            <div class="question-icon">
+                🔐💛
+            </div>
+
+            <h1>Okayyy 👀</h1>
+
+            <p>
+                One little password first.
+            </p>
+
+            <p class="question-text">
+                You should know this one.
+            </p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter password"
+                maxlength="8"
+            >
+
+            <button id="passwordButton" class="yes-button">
+                Unlock 💛
+            </button>
+
+            <p id="passwordHint" class="hint"></p>
+
+        </div>
+
+    </div>
+
+
+    <div id="mainScreen" class="hidden">
+
+        <div class="main-container">
+
+            <div class="card">
+
+                <div class="top-decoration">
+                    ✨ 🎈 🎂 🎈 ✨
+                </div>
+
+                <h1>Happy Birthday!</h1>
+
+                <h2>MS. Abbygail, Beng, Chibeng 💛</h2>
+
+                <h3>To Someone Special 💛</h3>
+
+                <p class="intro">
+                    Today is your special day, so I made something
+                    small just to make you smile.
+                </p>
+
+
+                <div class="photo-area">
+
+                    <div class="side-party left-party">
+
+                        <div class="balloon">
+                            🎈
+                        </div>
+
+                        <div class="party-horn">
+                            📣
+                        </div>
+
+                        <div class="mini-confetti">
+                            ✨
+                        </div>
+
+                    </div>
+
+
+                    <div class="birthday-banner">
+
+                        <span>HAPPY</span>
+                        <span>BIRTHDAY</span>
+                        <span>💛</span>
+
+                    </div>
+
+
+                    <img
+                        src="photo1.jpg.jpg"
+                        alt="Photo"
+                        class="her-photo"
+                    >
+
+
+                    <div class="side-party right-party">
+
+                        <div class="balloon">
+                            🎈
+                        </div>
+
+                        <div class="party-horn">
+                            📣
+                        </div>
+
+                        
+                        <div class="mini-confetti">
+                            ✨
+                        </div>
+
+                    </div>
+
+
+                    <div class="cake">
+
+                        <div class="flame">
+                            🔥
+                        </div>
+
+                        <div class="candle-glow"></div>
+
+                        <div class="candle"></div>
+
+                        <div class="cake-top">
+                            <span>💛</span>
+                            <span>✨</span>
+                            <span>💛</span>
+                            <span>✨</span>
+                            <span>💛</span>
+                        </div>
+
+                        <div class="cake-body">
+
+                            <div class="cream cream1"></div>
+                            <div class="cream cream2"></div>
+                            <div class="cream cream3"></div>
+
+                            <div class="cake-drip drip1"></div>
+                            <div class="cake-drip drip2"></div>
+                            <div class="cake-drip drip3"></div>
+
+                            <div class="cake-decoration">
+                                💛 ✨ 💛 ✨ 💛
+                            </div>
+
+                        </div>
+
+                        <div class="cake-bottom">
+                            <span>💛</span>
+                            <span>💛</span>
+                            <span>💛</span>
+                        </div>
+
+                        <div class="plate"></div>
+
+                    </div>
+
+
+                    <div class="bottom-confetti">
+                        🎉 ✨ 💛 🎊 ✨ 💛 🎉
+                    </div>
+
+                </div>
+
+
+                <button id="openButton" onclick="openMessage()">
+                    💌 Open Your Birthday Message
+                </button>
+
+
+                <div id="messageBox" class="message-box hidden">
+
+                    <h2>For You 💛</h2>
+
+                    <p>
+                        Happy Birthday! 🎂
+                    </p>
+
+                    <p>
+                        I just wanted to make this little message for you
+                        because your birthday is still something worth
+                        remembering.
+                    </p>
+
+                    <p>
+                        Even though things may be different now isn't it?
+                        I still appreciate the memories, laughter,
+                        conversations, and moments we shared before.
+                    </p>
+
+                    <p>
+                        Thank you for being part of a chapter of my life.
+                        I learned a lot from the time we spent together,
+                        and I will always appreciate those memories
+                        and you, of course.
+                    </p>
+
+                    <p>
+                        I sincerely hope that this new year of your life
+                        brings you happiness, peace, success, and many
+                        beautiful moments.
+                    </p>
+
+                    <p>
+                        Keep chasing the things that make you happy,
+                        keep smiling, and take care of yourself always.
+                       And You now What Excacly i mean, so i can't say it all, You Know me.
+                    </p>
+
+                    <h3>
+                        Have a beautiful birthday. 💛✨
+                    </h3>
+
+                    <p class="signature">
+                        — From someone who still wishes you well 💛<br>
+                        — I HOPE YOU'LL APPRECIATE THIS HEHE 💛
+                    </p>
+
+                </div>
+
+
+                <div class="memories-section">
+
+                    <div class="section-decoration">
+                        ✨ 💛 ✨
+                    </div>
+
+                    <h2>
+                        Little Memories of Your Happiness That I Know 💛
+                    </h2>
+
+                    <p class="memory-intro">
+                        Tap each picture to see the different message ✨
+                    </p>
+
+
+                    <div class="memory-gallery">
+
+                        <div
+                            class="photo-card"
+                            onclick="showMemory(1)"
+                        >
+
+                            <div class="shine"></div>
+
+                            <img
+                                src="photo2.jpg"
+                                alt="Photo card 1"
+                            >
+
+                            <div class="memory-title">
+                                Little Moment Of you!💛
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            class="photo-card"
+                            onclick="showMemory(2)"
+                        >
+
+                            <div class="shine"></div>
+
+                            <img
+                                src="photo4.jpg"
+                                alt="Photo card 2"
+                            >
+
+                            <div class="memory-title">
+                                My Fav Girl ✨
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            class="photo-card"
+                            onclick="showMemory(3)"
+                        >
+
+                            <div class="shine"></div>
+
+                            <img
+                                src="photo5.jpg"
+                                alt="Photo card 3"
+                            >
+
+                            <div class="memory-title">
+                                Keep Smiling 🌻
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="memoryMessage"
+                        class="memory-message hidden"
+                    >
+
+                        <div class="message-icon">
+                            💛
+                        </div>
+
+                        <h3 id="memoryTitle"></h3>
+
+                        <p id="memoryText"></p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="second-question">
+
+                    <div class="question-icon small">
+                        💛
+                    </div>
+
+                    <h2>One last question...</h2>
+
+                    <p>
+                        Miss mo pa rin ba ako? HAHAHA 😭
+                    </p>
+
+                    <div class="second-buttons">
+
+                        <button
+                            id="secondYes"
+                            class="yes-button"
+                        >
+                            YES 💛
+                        </button>
+
+                        <button
+                            id="secondNo"
+                            class="no-button"
+                        >
+                            NO 😭
+                        </button>
+
+                    </div>
+
+                    <p id="secondHint" class="hint"></p>
+
+
+                    <div
+                        id="finalMessage"
+                        class="final-message hidden"
+                    >
+
+                        <h2>
+                            HAHAHAHA alam ko naman eh 😭💛
+                        </h2>
+
+                        <p>
+                            Anyway, thank you for being part of my life.
+                        </p>
+
+                        <p>
+                            Happy Birthday ulit. I hope you have
+                            the happiest day. 🎂✨
+                        </p>
+
+                        <p>
+                            Take care always. 💛
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer">
+                    Made Of Christtian hehe 💛
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
