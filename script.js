@@ -155,7 +155,7 @@ function checkPassword() {
     } else {
 
         passwordHint.innerHTML =
-            "Hmmmm... You Forgot This one😒😒";
+            "Hmmmm...You Forgot This one😒😒";
         
 
         passwordInput.value = "";
