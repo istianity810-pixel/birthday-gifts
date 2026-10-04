@@ -29,13 +29,13 @@ const password = "12272005";
 
 const firstNoMessages = [
     "Sure kaba? 👀",
-    "Talaga bang NO? 😭",
+    "Talaga bang NO? 😮‍💨",
     "Sayang naman HAHAHA 💛",
-    "Baka gusto mo lang magpanggap na NO 😭",
+    "Baka gusto mo lang magpanggap na NO🫨 ",
     "Last chance... sure ka? 👀",
-    "Hindi talaga interested? 😭",
+    "Hindi talaga interested? ",
     "Sige ka, lalaki pa si YES HAHAHA",
-    "Okay final answer mo na yan? 😭"
+    "Okay final answer mo na yan? "
 ];
 
 
@@ -155,7 +155,8 @@ function checkPassword() {
     } else {
 
         passwordHint.innerHTML =
-            "Hmmmm... wrong password 😭 Try again.";
+            "Hmmmm... You Forgot This one😒😒";
+        
 
         passwordInput.value = "";
 
@@ -250,7 +251,7 @@ secondYes.addEventListener("click", function() {
     secondHint.innerHTML = "";
 
     secondYes.innerHTML =
-        "I KNEW IT 😭💛";
+        "I KNEW IT 🤭💛";
 
     secondYes.disabled = true;
 
